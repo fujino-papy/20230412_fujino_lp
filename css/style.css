@@ -56,7 +56,7 @@
     font-weight: bold;
     display: flex;
     justify-content: center;
-    padding-right: 27%;
+    padding-right: 37%;
 }
 .topix-ttl-imformation{
     font-weight: bold;
@@ -64,7 +64,7 @@
     font-size: large;
     display: flex;
     justify-content: center;
-    padding-right: 25%;
+    padding-right: 35%;
     padding-top: 10px;
 }
 .topix-list{
@@ -120,7 +120,8 @@
     justify-content: center;
     color: gray;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    padding-top: 20px;
 }
 .frex{
     display: flex;
@@ -140,39 +141,83 @@
     font-size: 15px;
 }
 .grid-block{
+    margin-left: 10%;
+    width: 80%;
     display: grid;
-    justify-content: center;
-        grid-template-rows: 300px 300px ;
+        grid-template-rows: 200px 200px ;
         grid-template-columns: 2fr 2fr;
 }
-.box-img{
-    width: 15%;
+.box-img1{
+    width: 150px;
+    padding-top: 10%;
+    padding-left: 40%;
+}
+.box-img2 {
+    padding-top: 20px;
+    width: 150px;
+    float: left;
+}
+.box-img3 {
+    padding-top: 20px;
+    width: 150px;
+    float: left;
 }
 .box1{
-    
     background: #990781;
     grid-row: 1/3;
     grid-column: 1/2;
+}
+.box1-ttl {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    margin-top: 10px;
+}
 
+.box1-content {
+    margin-top: 20px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
 }
 .box2{
     background: #b357a3;
     grid-row: 1/2;
     grid-column: 2/3;
 }
+.box2-ttl {
+    padding-top: 10%;
+    color: #FFF;
+
+}
+.box2-content{
+    padding-top: 20px;
+    color: #FFF;
+}
 .box3{
     background: #df94d2;
     grid-row: 2/3;
     grid-column: 2/3;
 }
+.box3-ttl{
+padding-top: 10%;
+color: #FFF;
+}
+.box3-content{
+    padding-top: 20px;
+    color: #FFF;
+}
 .service-ttl{
-    padding-left: 50px;
+    margin-top: 100px;
+    margin-left: 10%;
         font-family: 'Indie Flower', cursive;
         color: rgb(205, 43, 226);
         font-weight: bold;
 }
 .service-content{
-    padding-left: 50px;
+    margin-bottom: 20px;
+    margin-left: 10%;
     color: gray;
         font-weight: bold;
         font-size: 20px;
@@ -226,11 +271,11 @@
     line-height: 20px;
     padding: 30px;
 }
-ul{
+.frex-item{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-top:25px;
+    padding: 0 10px 20px 10px;
 }
 .btn{
     border: solid 2px rgb(205, 43, 226);
@@ -245,4 +290,119 @@ ul{
     font-size: 20px;
     cursor: pointer;
     text-align: center;
+}
+.Company-logo{
+    font-family: 'Indie Flower', cursive;
+        color: rgb(205, 43, 226);
+        font-weight: bold;
+        padding-left: 50px;
+        padding-top: 50px;
+}
+.Company-ttl{
+    padding-left: 50px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+        color: gray;
+        font-weight: bold;
+        font-size: 30px;
+}
+th,td{
+    border: solid 1px;
+    font-size: 20px;
+}
+th{
+    padding: 15px 200px 15px 10px;
+    font-weight: bold;
+    color: gray;
+}
+td{
+    padding: 15px 400px 15px 10px;
+    color: #999797;
+}
+.Company-table{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.img-img1{
+    position: relative;
+}
+.img-img2{
+    position: relative;
+}
+.img-img-ttl1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 50px;
+}
+.img-img-ttl2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 50px;
+}
+.img-photo1{
+    width: 50vw;
+}
+.img-photo2{
+    width: 50vw;
+}
+.Contact{
+    padding-top: 30px;
+}
+.Contact-ttl{
+        display: flex;
+            justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+.content-ttl-line{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #990781;
+    font-weight: lighter;
+}
+.content-btn{
+    background: #990781;
+    border-radius: 50px;
+    margin: 32px auto 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background: #990781;
+    box-shadow:0 5px 5px #6d055c;
+    margin-bottom: 100px;
+}
+.mail-img{
+    width: 30px;
+    margin-left: 30px
+}
+.content-btn-ttl{
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+small{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
